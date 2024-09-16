@@ -5,74 +5,16 @@ const Payments = ()=>{
     const [payments, setPayments] = useState([
         {
             paymentId: '#rty45678',
-            customerName: 'er saurav',
-            email: 'ersaurav@gmail.com',
+            customerName: 'arnob',
+            email: 'arnob@gmail.com',
             mobile: '+91 9472395194',
             product: 'lenovo ideapad 360',
             amount: 52000,
             date: '12-10-2024 10:15:14 Am',
             status: 'pending'
         },
-        {
-            paymentId: '#rty45678',
-            customerName: 'er saurav',
-            email: 'ersaurav@gmail.com',
-            mobile: '+91 9472395194',
-            product: 'lenovo ideapad 360',
-            amount: 52000,
-            date: '12-10-2024 10:15:14 Am',
-            status: 'pending'
-        },
-        {
-            paymentId: '#rty45678',
-            customerName: 'er saurav',
-            email: 'ersaurav@gmail.com',
-            mobile: '+91 9472395194',
-            product: 'lenovo ideapad 360',
-            amount: 52000,
-            date: '12-10-2024 10:15:14 Am',
-            status: 'pending'
-        },
-        {
-            paymentId: '#rty45678',
-            customerName: 'er saurav',
-            email: 'ersaurav@gmail.com',
-            mobile: '+91 9472395194',
-            product: 'lenovo ideapad 360',
-            amount: 52000,
-            date: '12-10-2024 10:15:14 Am',
-            status: 'pending'
-        },
-        {
-            paymentId: '#rty45678',
-            customerName: 'er saurav',
-            email: 'ersaurav@gmail.com',
-            mobile: '+91 9472395194',
-            product: 'lenovo ideapad 360',
-            amount: 52000,
-            date: '12-10-2024 10:15:14 Am',
-            status: 'pending'
-        },
-        {
-            paymentId: '#rty45678',
-            customerName: 'er saurav',
-            email: 'ersaurav@gmail.com',
-            mobile: '+91 9472395194',
-            product: 'lenovo ideapad 360',
-            amount: 52000,
-            date: '12-10-2024 10:15:14 Am',
-            status: 'pending'
-        },
-        {
-            paymentId: '#rty45678',
-            customerName: 'er saurav',
-            email: 'ersaurav@gmail.com',
-            mobile: '+91 9472395194',
-            product: 'lenovo ideapad 360',
-            amount: 52000,
-            date: '12-10-2024 10:15:14 Am',
-            status: 'pending'
-        }
+        
+      
     ])
 
     return (
@@ -82,7 +24,7 @@ const Payments = ()=>{
                 <div className="mt-6">
                     <table className="w-full">
                         <thead>
-                            <tr className="bg-rose-600 text-white">
+                            <tr className="bg-gradient-to-r from-green-500 via-teal-400 to-blue-400 text-white">
                                 <th className="py-4">Payment Id</th>
                                 <th>Customer`s Name</th>
                                 <th>Email</th>

@@ -5,134 +5,16 @@ const Orders = ()=>{
     const [orders, setOrders] = useState([
         {
             orderId: '#rty45678',
-            customerName: 'er saurav',
-            email: 'ersaurav@gmail.com',
+            customerName: 'Arnob',
+            email: 'arnob1415.com',
             mobile: '+91 9472395194',
             product: 'lenovo ideapad 360',
             amount: 52000,
             date: '12-10-2024 10:15:14 Am',
             status: 'pending'
         },
-        {
-            orderId: '#rty45678',
-            customerName: 'er saurav',
-            email: 'ersaurav@gmail.com',
-            mobile: '+91 9472395194',
-            product: 'lenovo ideapad 360',
-            amount: 52000,
-            date: '12-10-2024 10:15:14 Am',
-            status: 'pending'
-        },
-        {
-            orderId: '#rty45678',
-            customerName: 'er saurav',
-            email: 'ersaurav@gmail.com',
-            mobile: '+91 9472395194',
-            product: 'lenovo ideapad 360',
-            amount: 52000,
-            date: '12-10-2024 10:15:14 Am',
-            status: 'pending'
-        },
-        {
-            orderId: '#rty45678',
-            customerName: 'er saurav',
-            email: 'ersaurav@gmail.com',
-            mobile: '+91 9472395194',
-            product: 'lenovo ideapad 360',
-            amount: 52000,
-            date: '12-10-2024 10:15:14 Am',
-            status: 'pending'
-        },
-        {
-            orderId: '#rty45678',
-            customerName: 'er saurav',
-            email: 'ersaurav@gmail.com',
-            mobile: '+91 9472395194',
-            product: 'lenovo ideapad 360',
-            amount: 52000,
-            date: '12-10-2024 10:15:14 Am',
-            status: 'pending'
-        },
-        {
-            orderId: '#rty45678',
-            customerName: 'er saurav',
-            email: 'ersaurav@gmail.com',
-            mobile: '+91 9472395194',
-            product: 'lenovo ideapad 360',
-            amount: 52000,
-            date: '12-10-2024 10:15:14 Am',
-            status: 'pending'
-        },
-        {
-            orderId: '#rty45678',
-            customerName: 'er saurav',
-            email: 'ersaurav@gmail.com',
-            mobile: '+91 9472395194',
-            product: 'lenovo ideapad 360',
-            amount: 52000,
-            date: '12-10-2024 10:15:14 Am',
-            status: 'pending'
-        },
-        {
-            orderId: '#rty45678',
-            customerName: 'er saurav',
-            email: 'ersaurav@gmail.com',
-            mobile: '+91 9472395194',
-            product: 'lenovo ideapad 360',
-            amount: 52000,
-            date: '12-10-2024 10:15:14 Am',
-            status: 'pending'
-        },
-        {
-            orderId: '#rty45678',
-            customerName: 'er saurav',
-            email: 'ersaurav@gmail.com',
-            mobile: '+91 9472395194',
-            product: 'lenovo ideapad 360',
-            amount: 52000,
-            date: '12-10-2024 10:15:14 Am',
-            status: 'pending'
-        },
-        {
-            orderId: '#rty45678',
-            customerName: 'er saurav',
-            email: 'ersaurav@gmail.com',
-            mobile: '+91 9472395194',
-            product: 'lenovo ideapad 360',
-            amount: 52000,
-            date: '12-10-2024 10:15:14 Am',
-            status: 'pending'
-        },
-        {
-            orderId: '#rty45678',
-            customerName: 'er saurav',
-            email: 'ersaurav@gmail.com',
-            mobile: '+91 9472395194',
-            product: 'lenovo ideapad 360',
-            amount: 52000,
-            date: '12-10-2024 10:15:14 Am',
-            status: 'pending'
-        },
-        {
-            orderId: '#rty45678',
-            customerName: 'er saurav',
-            email: 'ersaurav@gmail.com',
-            mobile: '+91 9472395194',
-            product: 'lenovo ideapad 360',
-            amount: 52000,
-            date: '12-10-2024 10:15:14 Am',
-            status: 'pending'
-        },
-        {
-            orderId: '#rty45678',
-            customerName: 'er saurav',
-            email: 'ersaurav@gmail.com',
-            mobile: '+91 9472395194',
-            product: 'lenovo ideapad 360',
-            amount: 52000,
-            date: '12-10-2024 10:15:14 Am',
-            status: 'pending'
-        }
+      
+     
     ])
 
     return (
@@ -142,7 +24,7 @@ const Orders = ()=>{
                 <div className="mt-6">
                     <table className="w-full">
                         <thead>
-                            <tr className="bg-rose-600 text-white">
+                            <tr className="bg-gradient-to-r from-teal-600 to-blue-500 text-white">
                                 <th className="py-4">Order Id</th>
                                 <th>Customer`s Name</th>
                                 <th>Email</th>
